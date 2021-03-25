@@ -4,17 +4,15 @@
        local("Bigilla"),
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
 body {
   background: #f6eee2;
 }
-
 
 ::-webkit-scrollbar {
   transform: translateY(-10px);
   width: 0px;
 }
-
 
 .text {
   color: #1b1b1b;
@@ -23,7 +21,6 @@ body {
   letter-spacing: 18px;
   zoom: 1.3;
 }
-
 
 * {
   overflow-y: hidden;
@@ -34,11 +31,16 @@ h2 {
   font-size: 150px;
   font-family: "Bigilla";
   letter-spacing: 2px;
-  text-align: center;
+  text-align: left;
+  margin: 30% 0px auto;
 }
 
-
-
+@media (max-width: 1200px) {
+  h2 {
+    width: 1200px;
+    font-size: 100px;
+  }
+}
 
 .wrap {
   width: 360vw;
@@ -46,21 +48,15 @@ h2 {
   justify-content: space-around;
 }
 
-
-
-
-
-
 .resume {
-  margin: 0 auto;
-  margin-top: 140px;
+  margin: 0px auto;
 }
 
 
 .wrapper2 {
   position: relative;
   z-index: 0;
-  width: 250vh;
+  width: 242vh;
   margin: 0px auto;
   margin-top: 10px;
 }
@@ -69,7 +65,8 @@ h2 {
 .hire-me {
   position: relative;
   z-index: 5;
-  width: 83vw;
+  width: 120vh;
+  margin: 0px auto;
 }
 
 
@@ -85,7 +82,6 @@ h2 {
   left: 180px;
 }
 
-
 .projet-two {
   position: absolute;
   z-index: 2;
@@ -94,7 +90,6 @@ h2 {
   left: 39%;
   height: 35%;
 }
-
 
 /*.projet-tree {
   position: absolute;
@@ -105,26 +100,79 @@ h2 {
   height: 35%;
 }*/
 
+.projet-one .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #c1ccffcc;
+  width: 42.5%;
+  height: 90%;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projet-one .overlay p{
+  color: #1b1b1b;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.projet-one:hover .overlay {
+  opacity: 1;
+}
+
+.projet-two .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #310401bf;
+  width: 38%;
+  height: 95%;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projet-two .overlay p{
+  color: #f6eee2;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.projet-two:hover .overlay {
+  opacity: 1;
+}
 
 /*------------------------------------------------------*/
 
 
 time {
   font-size: 20px;
+  font-family: "Bigilla";
   font-weight: bold;
 }
 
 
 li {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
+  margin: 0px 0px 10px;
+  font-family: "lato";
+  font-weight: 100;
 }
 
 
 p {
   font-size: 30px;
   font-family: "Bigilla";
-  text-align: center;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0px 20px;
 }
 
 
@@ -137,7 +185,7 @@ p {
   color: #1b1b1b;
   font-size: 220px;
   font-family: "Bigilla";
-  transition: line-height .3s ease-out;
+  transition: line-height .2s ease-out;
   padding-top: 48vh;
 }
 
@@ -148,24 +196,24 @@ p {
 }
 
 
-#cursor {
+/*#cursor {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
-}
+}*/
 
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 36px 0px;
   color: #1b1b1b;
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0px;
+  position: relative;
+  right: 0px;
+  left: 35px;
+  top: 86%;
 }
 
 
@@ -180,18 +228,29 @@ p {
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+  color: #1b1b1b94;
 }
 .footer .fa-heart {
-  color: #D23333;
+  color: #1b1b1b;
 }
 
 
 h3 {
-  font-size: 18px;
+  font-size: 14px;
+  margin: 0px;
+  font-family: "lato";
+  font-weight: 100;
 }
 
-
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Bigilla";
+  letter-spacing: 1px;
+  }
+  h4:hover {
+    color: #1b1b1b94;
+}
 
 
 /*---circle---------------------------------------------------------*/
@@ -203,7 +262,6 @@ h3 {
   right: 40px;
   bottom: 10px;
 }
-
 
 .arrow {
   color: #1b1b1b;
@@ -217,7 +275,6 @@ h3 {
   animation: rotation 12s infinite linear;
 }
 
-
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -226,3 +283,10 @@ h3 {
     transform: rotate(359deg);
   }
 }
+
+.circle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
