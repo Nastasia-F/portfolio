@@ -1,0 +1,228 @@
+@font-face {
+  font-family: MaBigilla;
+  src: local("Bigilla-Bold"),
+       local("Bigilla"),
+}
+
+
+body {
+  background: #f6eee2;
+}
+
+
+::-webkit-scrollbar {
+  transform: translateY(-10px);
+  width: 0px;
+}
+
+
+.text {
+  color: #1b1b1b;
+  font-size: 660px;
+  font-family: "Bigilla";
+  letter-spacing: 18px;
+  zoom: 1.3;
+}
+
+
+* {
+  overflow-y: hidden;
+}
+
+
+h2 {
+  font-size: 150px;
+  font-family: "Bigilla";
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+
+
+.wrap {
+  width: 360vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+.resume {
+  margin: 0 auto;
+  margin-top: 140px;
+}
+
+
+.wrapper2 {
+  position: relative;
+  z-index: 0;
+  width: 250vh;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+
+.hire-me {
+  position: relative;
+  z-index: 5;
+  width: 83vw;
+}
+
+
+/*----image--------------------------------------------------*/
+
+
+.projet-one {
+  position: absolute;
+  z-index: 1;
+  height: 22%;
+  display: flex;
+  top: 200px;
+  left: 180px;
+}
+
+
+.projet-two {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  top: 35%;
+  left: 39%;
+  height: 35%;
+}
+
+
+/*.projet-tree {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  top: 10%;
+  left: 69.5%;
+  height: 35%;
+}*/
+
+
+/*------------------------------------------------------*/
+
+
+time {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+
+p {
+  font-size: 30px;
+  font-family: "Bigilla";
+  text-align: center;
+}
+
+
+/*--Contact anim----------------------------------------------*/
+
+
+.bounce_button {
+  position: absolute;
+  line-height: 306px;
+  color: #1b1b1b;
+  font-size: 220px;
+  font-family: "Bigilla";
+  transition: line-height .3s ease-out;
+  padding-top: 48vh;
+}
+
+
+.bounce_button:hover {
+  line-height: 180px;
+  cursor: pointer;
+}
+
+
+#cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0px;
+  color: #1b1b1b;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+}
+
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
+h3 {
+  font-size: 18px;
+}
+
+
+
+
+/*---circle---------------------------------------------------------*/
+
+
+.scroll-circle {
+  color: #1b1b1b;
+  position: fixed;
+  right: 40px;
+  bottom: 10px;
+}
+
+
+.arrow {
+  color: #1b1b1b;
+  position: fixed;
+  right: 71px;
+  bottom: 66px;
+}
+
+
+.rotate {
+  animation: rotation 12s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
