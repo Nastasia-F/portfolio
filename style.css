@@ -1,7 +1,6 @@
 @font-face {
   font-family: MaBigilla;
-  src: local("Bigilla-Bold"),
-       local("Bigilla"),
+  src: url("images/Bigilla.otf") format("opentype");,
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
