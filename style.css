@@ -3,7 +3,8 @@
 @font-face {
   font-family: 'bigillaregular';
   src: url('bigilla-webfont.woff2') format('woff2'),
-       url('bigilla-webfont.woff') format('woff');
+       url('bigilla-webfont.woff') format('woff'),
+       url('bigilla.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -208,6 +209,13 @@ h3 {
   text-align: left;
   margin: 0.5% 0px auto;
   color: #1b1b1b;
+}
+
+@media (max-width: 1080px) {
+  h3 {
+    min-width: 1080px;
+    font-size: 18px;
+  }
 }
 
 h4 {
