@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
 @font-face {
   font-family: 'bigillaregular';
   src: url('bigilla-webfont.woff2') format('woff2'),
@@ -5,8 +7,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 body {
   /*cursor: none;*/
@@ -76,7 +76,7 @@ body {
   z-index: 0;
 /*  width: 242vh;
   margin: 0px auto;*/
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .hire-me {
@@ -165,26 +165,35 @@ body {
   opacity: 1;
 }
 
+.star {
+  width: 18px;
+}
+
+.star:hover {
+  color: #9e2e0b;
+}
+
+
 /*------------------------------------------------------*/
 h1 {
-  font-size: 150px;
+  font-size: 110px;
   font-family: "bigillaregular";
   font-weight: lighter;
   letter-spacing: 2px;
   text-align: left;
-  margin: 20% 0px auto;
+  margin: 250px 0px auto;
   color: #1b1b1b;
 }
 
 @media (max-width: 1080px) {
   h1 {
     min-width: 1080px;
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 36px;
   font-family: "bigillaregular";
   font-weight: 700;
   text-align: left;
@@ -202,13 +211,22 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "bigillaregular";
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "lato";
   letter-spacing: 1px;
+}
+
+h6 {
+  font-size: 21px;
+  text-decoration: none;
+  font-family: "bigillaregular";
+  text-align: left;
+  color: #1b1b1b;
+  margin-top: 16px;
   }
-  h4:hover {
-    color: #1b1b1b94;
+  a:hover {
+    color: #9e2e0b;
 }
 
 
@@ -220,18 +238,19 @@ p {
   color: #1b1b1b;
   }
   p:hover {
-    color: #1b1b1b94;
+    color: #9e2e0b;
 }
 
 a {
   font-size: 20px;
   text-decoration: none;
-  font-family: "bigillaregular";
+  font-family: "lato";
+  font-weight: bold;
   text-align: left;
   color: #1b1b1b;
   }
   a:hover {
-    color: #1b1b1b94;
+    color: #9e2e0b;
 }
 
 /*--Contact anim----------------------------------------------*/
@@ -280,7 +299,7 @@ a {
   color: #1b1b1b94;
 }
 .footer .fa-heart {
-  color: #1b1b1b;
+  color: #1b1b1b42;
 }
 
 
