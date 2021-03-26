@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'bigillaregular';
-  src: url('bigilla-webfont.woff2') format('woff2'),
-       url('bigilla-webfont.woff') format('woff'),
-       url('bigilla.otf') format('otf');
+  src: url('assets/bigilla-webfont.woff2') format('woff2'),
+       url('assets/bigilla-webfont.woff') format('woff'),
+       url('assets/bigilla.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
