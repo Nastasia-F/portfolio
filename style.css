@@ -1,16 +1,20 @@
-@font-face {
+/*@font-face {
   font-family: Bigilla;
-  src: url("images/Bigilla.otf") format("opentype");,
-}
-
-/*@font-face{
-  font-family : "Bigilla";
-  src : url('Bigilla.woff') format('woff'),
-        url('Bigilla.svg#abcd') format('svg'),
-        url('Bigilla.ttf') format('truetype');
+  src: url("images/Bigilla/Bigilla.otf") format("opentype");
+  src: local('☺︎'),
+        url('Bigilla.otf') format('opentype');
 }*/
 
+@font-face {
+  font-family: 'bigillaregular';
+  src: url('bigilla-webfont.woff2') format('woff2'),
+       url('bigilla-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
+
 body {
   background: #f6eee2;
 }
