@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 body {
   /*cursor: none;*/
@@ -26,25 +26,34 @@ body {
   zoom: 1.3;
 }
 
+.text-w {
+  color: #1b1b1b;
+  font-size: 660px;
+  font-family: "bigillaregular";
+  letter-spacing: -40px;
+  zoom: 1.3;
+}
+
+.text-r {
+  color: #1b1b1b;
+  font-size: 660px;
+  font-family: "bigillaregular";
+  zoom: 1.3;
+}
+
+.text-k {
+  color: #1b1b1b;
+  font-size: 660px;
+  font-family: "bigillaregular";
+  letter-spacing: 40px;
+  zoom: 1.3;
+}
+
+
 /** {
   overflow-y: hidden;
 }*/
 
-h2 {
-  font-size: 150px;
-  font-family: "bigillaregular";
-  font-weight: lighter;
-  letter-spacing: 2px;
-  text-align: left;
-  margin: 30% 0px auto;
-}
-
-@media (max-width: 1200px) {
-  h2 {
-    min-width: 1200px;
-    font-size: 100px;
-  }
-}
 
 .wrap {
   width: 360vw;
@@ -65,15 +74,9 @@ h2 {
 .wrapper2 {
   position: relative;
   z-index: 0;
-  width: 242vh;
-  margin: 0px auto;
+/*  width: 242vh;
+  margin: 0px auto;*/
   margin-top: 10px;
-}
-
-@media (max-width: 242vh) {
-  .wrapper2 {
-    min-width: 242vh;
-  }
 }
 
 .hire-me {
@@ -90,9 +93,9 @@ h2 {
 .projet-one {
   position: absolute;
   z-index: 1;
-  height: 20%;
+  height: 21%;
   display: flex;
-  top: 270px;
+  top: 158px;
   left: 188px;
 }
 
@@ -100,9 +103,9 @@ h2 {
   position: absolute;
   z-index: 2;
   display: flex;
-  top: 44%;
-  left: 40%;
-  height: 30%;
+  top: 36%;
+  left: 38%;
+  height: 34%;
 }
 
 /*.projet-tree {
@@ -118,7 +121,7 @@ h2 {
   position: absolute;
   bottom: 0;
   background: #c1ccffcc;
-  width: 46.8%;
+  width: 40.5%;
   height: 90.3%;
   transition: .5s ease;
   opacity: 0;
@@ -142,8 +145,8 @@ h2 {
   position: absolute;
   bottom: 0;
   background: #310401bf;
-  width: 39.3%;
-  height: 94%;
+  width: 36.6%;
+  height: 93.3%;
   transition: .5s ease;
   opacity: 0;
   padding: 10px;
@@ -163,30 +166,73 @@ h2 {
 }
 
 /*------------------------------------------------------*/
-
-
-time {
-  font-size: 20px;
+h1 {
+  font-size: 150px;
   font-family: "bigillaregular";
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 20% 0px auto;
+  color: #1b1b1b;
 }
 
+@media (max-width: 1080px) {
+  h1 {
+    min-width: 1080px;
+    font-size: 100px;
+  }
+}
 
-li {
-  list-style-type: none;
+h2 {
+  font-size: 40px;
+  font-family: "bigillaregular";
+  font-weight: 700;
   text-align: left;
-  margin: 0px 0px 10px;
-  font-family: 'lato';
-  font-weight: 300,1;
+  margin: 0px 0px 20px;
+  color: #1b1b1b;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  margin: 0.5% 0px auto;
+  color: #1b1b1b;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "bigillaregular";
+  letter-spacing: 1px;
+  }
+  h4:hover {
+    color: #1b1b1b94;
 }
 
 
 p {
-  font-size: 30px;
+  font-size: 20px;
+  text-decoration: none;
   font-family: "bigillaregular";
   text-align: left;
-  margin: 10px 0px 20px;
+  color: #1b1b1b;
+  }
+  p:hover {
+    color: #1b1b1b94;
 }
 
+a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "bigillaregular";
+  text-align: left;
+  color: #1b1b1b;
+  }
+  a:hover {
+    color: #1b1b1b94;
+}
 
 /*--Contact anim----------------------------------------------*/
 
@@ -238,39 +284,28 @@ p {
 }
 
 
-h3 {
-  font-size: 14px;
-  margin: 0px;
-  font-family: 'lato';
-  font-weight: 300,0;
-}
-
-h4 {
-  font-size: 20px;
-  font-weight: 700,0;
-  font-family: "bigillaregular";
-  letter-spacing: 1px;
-  }
-  h4:hover {
-    color: #1b1b1b94;
-}
-
-
 /*---circle---------------------------------------------------------*/
 
 
 .scroll-circle {
   color: #1b1b1b;
-  position: fixed;
+  position: absolute;
   right: 40px;
   bottom: 10px;
 }
 
+.scroll-circle-2 {
+  color: #1b1b1b;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
 .arrow {
   color: #1b1b1b;
-  position: fixed;
-  right: 71px;
-  bottom: 50px;
+  position: absolute;
+ right: 32px;
+ bottom: 40px;
 }
 
 
