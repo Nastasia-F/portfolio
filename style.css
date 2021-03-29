@@ -16,11 +16,10 @@ body {
   background: #f6eee2;
 }
 
-
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
   transform: translateY(-10px);
   width: 0px;
-}*/
+}
 
 .text {
   color: #1b1b1b;
@@ -77,8 +76,6 @@ body {
 .wrapper2 {
   position: relative;
   z-index: 0;
-/*  width: 242vh;
-  margin: 0px auto;*/
 }
 
 .hire-me {
