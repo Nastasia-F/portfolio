@@ -16,10 +16,10 @@ body {
   background: #f6eee2;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   transform: translateY(-10px);
   width: 0px;
-}
+}*/
 
 .text {
   color: #1b1b1b;
