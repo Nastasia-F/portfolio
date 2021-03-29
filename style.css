@@ -10,14 +10,13 @@
 }
 
 body {
-  /*cursor: none;*/
   background: #f6eee2;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   transform: translateY(-10px);
   width: 0px;
-}
+}*/
 
 .text {
   color: #1b1b1b;
@@ -50,17 +49,17 @@ body {
   zoom: 1.3;
 }
 
-
 /** {
   overflow-y: hidden;
 }*/
-
 
 .wrap {
   width: 360vw;
   display: flex;
   justify-content: space-around;
+  /*min-height: calc(360vh - 0px - 0px);*/
 }
+
 @media (max-width: 360vh) {
   .wrap {
     width: 600vh;
@@ -83,7 +82,7 @@ body {
 .hire-me {
   position: relative;
   z-index: 5;
-  width: 120vh;
+  width: 130vh;
   margin: 0px auto;
 }
 
@@ -94,9 +93,9 @@ body {
 .projet-one {
   position: absolute;
   z-index: 1;
-  height: 21%;
+  height: 200px;
   display: flex;
-  top: 158px;
+  top: 285px;
   left: 188px;
 }
 
@@ -104,9 +103,9 @@ body {
   position: absolute;
   z-index: 2;
   display: flex;
-  top: 36%;
-  left: 38%;
-  height: 34%;
+  top: 450px;
+  left: 800px;
+  height: 320px;
 }
 
 /*.projet-tree {
@@ -122,8 +121,8 @@ body {
   position: absolute;
   bottom: 0;
   background: #c1ccffcc;
-  width: 40.5%;
-  height: 90.3%;
+  width: 281px;
+  height: 181px;
   transition: .5s ease;
   opacity: 0;
   padding: 10px;
@@ -146,8 +145,8 @@ body {
   position: absolute;
   bottom: 0;
   background: #310401bf;
-  width: 36.6%;
-  height: 93.3%;
+  width: 193px;
+  height: 300px;
   transition: .5s ease;
   opacity: 0;
   padding: 10px;
@@ -207,7 +206,7 @@ h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   text-align: left;
-  margin: 0.5% 0px auto;
+  margin: 15px 0px auto;
   color: #1b1b1b;
 }
 
@@ -289,7 +288,7 @@ a {
   position: relative;
   right: 0px;
   left: 35px;
-  top: 86%;
+  top: 800px;
 }
 
 
@@ -317,15 +316,15 @@ a {
 .scroll-circle {
   color: #1b1b1b;
   position: absolute;
-  right: 40px;
+  right: 300px;
   bottom: 10px;
 }
 
 .scroll-circle-2 {
   color: #1b1b1b;
   position: absolute;
-  right: 0%;
-  top: 0%;
+  right: 0px;
+  top: 0px;
 }
 
 .arrow {
