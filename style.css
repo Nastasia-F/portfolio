@@ -10,10 +10,9 @@
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+ /* margin: 0px;
+  padding: 0px;*/
   widows: 300vw;
-  height: 100vh;
   background: #f6eee2;
 }
 
@@ -24,33 +23,32 @@ body {
 
 .text {
   color: #1b1b1b;
-  font-size: 660px;
+  font-size: 900px;
   font-family: "bigillaregular";
   letter-spacing: 18px;
-  zoom: 1.3;
+  /*zoom: 1.3;*/
 }
 
 .text-w {
   color: #1b1b1b;
-  font-size: 660px;
+  font-size: 900px;
   font-family: "bigillaregular";
   letter-spacing: -40px;
-  zoom: 1.3;
 }
 
 .text-r {
   color: #1b1b1b;
-  font-size: 660px;
+  font-size: 900px;
   font-family: "bigillaregular";
-  zoom: 1.3;
+  /*zoom: 1.3;*/
 }
 
 .text-k {
   color: #1b1b1b;
-  font-size: 660px;
+  font-size: 900px;
   font-family: "bigillaregular";
   letter-spacing: 40px;
-  zoom: 1.3;
+  /*zoom: 1.3;*/
 }
 
 * {
@@ -100,7 +98,7 @@ body {
   z-index: 1;
   height: 200px;
   display: flex;
-  top: 285px;
+  top: 320px;
   left: 188px;
 }
 
@@ -108,8 +106,8 @@ body {
   position: absolute;
   z-index: 2;
   display: flex;
-  top: 450px;
-  left: 800px;
+  top: 490px;
+  left: 850px;
   height: 320px;
 }
 
@@ -181,7 +179,7 @@ body {
 
 /*------------------------------------------------------*/
 h1 {
-  font-size: 110px;
+  font-size: 90px;
   font-family: "bigillaregular";
   font-weight: lighter;
   letter-spacing: 2px;
@@ -191,7 +189,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 30px;
   font-family: "bigillaregular";
   font-weight: 700;
   text-align: left;
@@ -269,7 +267,7 @@ a {
   font-size: 220px;
   font-family: "bigillaregular";
   transition: line-height .2s ease-out;
-  padding-top: 48vh;
+  top: 500px;
 }
 
 
@@ -287,7 +285,7 @@ a {
   position: relative;
   right: 0px;
   left: 35px;
-  top: 800px;
+  top: 72%;
 }
 
 
