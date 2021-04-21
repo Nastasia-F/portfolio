@@ -12,7 +12,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  widows: 360vw;
+  widows: 300vw;
+  height: 100vh;
   background: #f6eee2;
 }
 
@@ -61,15 +62,21 @@ body {
   justify-content: space-around;
 }
 
-@media (max-width: 360vh) {
+@media (max-width: 300vw) {
   .wrap {
-    width: 600vh;
+    width: 300vw;
   }
 }
 
 .resume {
   margin: 0px auto;
   position: relative;
+}
+
+@media (max-width: 1366px) {
+  .about {
+    min-width: 900px;
+  }
 }
 
 
@@ -81,7 +88,7 @@ body {
 .hire-me {
   position: relative;
   z-index: 5;
-  width: 130vh;
+  width: 70vw;
   margin: 0px auto;
 }
 
@@ -181,13 +188,6 @@ h1 {
   text-align: left;
   margin: 250px 0px auto;
   color: #1b1b1b;
-}
-
-@media (max-width: 1080px) {
-  h1 {
-    min-width: 1080px;
-    font-size: 90px;
-  }
 }
 
 h2 {
@@ -315,7 +315,7 @@ a {
 .scroll-circle {
   color: #1b1b1b;
   position: absolute;
-  right: -14px;
+  right: 0px;
   bottom: 280px;
 }
 
